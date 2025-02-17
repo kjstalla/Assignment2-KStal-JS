@@ -1,0 +1,42 @@
+body { /* centers everything on the page */
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+label { /* styles font next to buttons and drop downs */
+    font-size: 40px;
+    padding: 10px;
+    font-family: "Atma", serif; /* google font */
+    color: white;
+}
+
+button { /* styles button */
+    font-size: 15px;
+    border-radius: 10px; /* makes button rounded */
+    padding: 10px;
+    margin: 10px;
+}
+
+button:hover { /* when button is hovered over */
+    background-color: yellow;
+}
+
+#myStudentId { /* styles student id paragraph using id */
+    font-size: 25px;
+    padding: 10px;
+    font-family: "Atma", serif;
+    color: white;
+}
+
+#images { /* styles images with a fixed size */
+    margin: 50px;
+    display: none; 
+    width: 1000px; 
+    height: 500px; 
+    object-fit: cover;
+}
